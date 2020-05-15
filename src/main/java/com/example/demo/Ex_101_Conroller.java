@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class Ex_101_Conroller {
         @RequestMapping("/index")
         public String homepage() {
-            return "lesson1";
+
+            return "index";
         }
 }
